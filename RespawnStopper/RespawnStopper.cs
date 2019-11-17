@@ -67,6 +67,7 @@ public class RespawnStopper : Script
             Game.Player.Character.IsInvincible = true;     
             Function.Call(Hash._STOP_ALL_SCREEN_EFFECTS);
         }
+        Function.Call(Hash.DISPLAY_HUD, true);
     }
     private void RespawnInPlace()
     {
